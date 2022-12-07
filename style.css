@@ -66,10 +66,20 @@ picture{
     }
 }
 
+@media screen and (max-width: 720px){
+    .container{
+        margin: 4.13rem auto;
+        padding: 2rem 1rem;
+    }
+    .dice{
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+    }
+}
+
 @media screen and (max-width: 560px){
     .container{
         margin: 4.13rem auto;
-        padding: 2rem .5rem;
+        padding: 2rem 1rem;
     }
     .dice{
         padding: 1.5rem 1.5rem 1rem 1.5rem;
