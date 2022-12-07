@@ -37,6 +37,7 @@ picture{
 }
 
 .skew{
+    -ms-transform: skewY(180deg);
     transform: skewY(180deg);
     transition: all 1s;
 }
