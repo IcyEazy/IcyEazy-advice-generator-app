@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    font-family: "Manrope";
+    background-color: hsl(218, 23%, 16%);
+    color: white;
+    height: 100vh;
+}
+
+.container{
+    margin: 6.25rem 19.63rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem 5rem;
+    background-color: hsl(217, 19%, 24%);
+}
+
+picture{
+    margin-top: 2rem;
+}
+
+.dice{
+    padding: 1rem 1rem .7rem 1rem;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    cursor: pointer;
+    position: relative;
+    top: 3.75rem;
+    transition: all 0.3s;
+}
+
+.dice:hover{
+    box-shadow: 3px 2px 48px -9px hsl(150, 100%, 66%);
+}
+
+.skew{
+    transform: skewY(180deg);
+    transition: all 1s;
+}
+
+.advice-id{
+    color: hsl(150, 100%, 66%);
+    font-size: 0.9375rem;
+}
+
+.advice-texts{
+    font-size: 1.75rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        margin: 5rem 5.25rem;
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .container{
+        margin: 4.13rem auto;
+        padding: 2rem .5rem;
+    }
+    .dice{
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .container{
+        margin: 4.13rem auto;
+        padding: 2rem .5rem;
+    }
+    .dice{
+        padding: 1.5rem 1.5rem 1rem 1.5rem;
+    }
+}
